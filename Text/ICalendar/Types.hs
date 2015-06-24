@@ -1,8 +1,4 @@
-{-# LANGUAGE CPP                #-}
-{-# LANGUAGE DeriveDataTypeable #-}
-{-# LANGUAGE DeriveGeneric      #-}
-{-# LANGUAGE OverloadedStrings  #-}
--- | ICalendar types, based on RFC5545.
+-- | iCalendar types, based on RFC5545.
 module Text.ICalendar.Types
     ( module Text.ICalendar.Types.Components
     , module Text.ICalendar.Types.Parameters
